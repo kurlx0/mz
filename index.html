@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MZ EVENTS MGNT</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-before"></div>
+        <div class="prompt-nav">
+            <a id="open-nav">
+                <img src="assets/menu-bars.png" alt="">
+            </a>
+            <a id="close-nav">
+                <img src="assets/menu-close.png" alt="">
+            </a>
+        </div>
+        <div class="nav" id="nav">
+            <div class="logo">
+                <a href="#">
+                    <img id="logo-img" src="assets/Logo-02.png" alt="logo">
+                    <p>MZ <span>EVENTS</span> MANAGEMENT</p>
+                </a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item active" id="home-nav" onclick="navBtnClickFn(homeNav, homeTab)"><a class="nav-link" href="#home-tab">Home</a></li>
+                    <li class="nav-item" id="about-nav" onclick="navBtnClickFn(aboutNav, aboutTab)"><a class="nav-link" href="#about-tab">About</a></li>
+                    <li class="nav-item" id="services-nav" onclick="navBtnClickFn(servicesNav, servicesTab)"><a class="nav-link" href="#services-tab">Services</a></li>
+                    <li class="nav-item" id="contact-nav" onclick="navBtnClickFn(contactNav, contactTab)"><a class="nav-link" href="#contact-tab">Contact</a></li>
+                    <li class="nav-item" id="resources-nav" onclick="navBtnClickFn(resourcesNav, resourcesTab)"><a class="nav-link" href="#resources-tab">Site resources</a></li>
+                </ul>
+            </div>
+            <div class="theme-btn">
+                <!-- <a href="">dark</a> -->
+                <a id="l-thm-btn" href="#"><!-- &#9728; --><img src="assets/dark.png" style="width: 20px;"></a>
+                <a id="d-thm-btn" href="" style="display: none;"><!-- &#x1F319;&#127769 &#x1F319; --><img src="assets/light-02-06.png" style="width: 20px;"></a>
+                <!-- <button>&#9728;</button> -->
+            </div>
+        </nav>
+    </div>
+    <section id="home-tab" class="tab active">
+        <!-- <p class="par-temp">Home</p> -->
+        <div class="container">
+            <div class="text-left">
+                <div class="text-container">
+                    <h1>MZ <span style="color: var(--maroon-);">EVENTS</span> MANAGEMENT</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam necessitatibus ad accusantium nisi in dignissimos laborum temporibus aperiam suscipit autem. Repellendus, earum ducimus. Ipsam culpa iure possimus tempore odio ad.</p>
+                </div>
+            </div>
+            <div class="img-right">
+                <div class="img-container">
+                    <img src="assets/img-01.jpg" alt="Events Decoration Image.">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about-tab" class="tab">
+        <p class="par-temp">About</p>
+    </section>
+    <section id="services-tab" class="tab">
+        <p class="par-temp">Services</p>
+    </section>
+    <section id="contact-tab" class="tab">
+        <p class="par-temp">Contact</p>
+    </section>
+    <section id="resources-tab" class="tab">
+        <p class="par-temp">Resources</p>
+    </section>
+    <section id="dummy" class="tab active" style="display: flex; visibility: hidden;">
+        <p class="par-temp">Dummy</p>
+    </section>
+    <footer>
+        <div class="footer-text">
+            <p>&COPY; 2026 MZ Events Management. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
