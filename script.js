@@ -95,14 +95,3 @@ const navBtnClickFn = (navBtnCl, actTab) => {
     navBtnCl.classList.add('active');
     actTab.classList.add('active');
 }
-
-
-// DELETE
-// const objTest = {model: "Lexus", number: 16, owner: "Steven"};
-
-// console.log(`${objTest.owner} owns a ${objTest.model} with its numberplate being ${objTest.number}`);
-
-// function myFunction(p1, p2) {
-//     return p1 * p2;
-// }
-// console.log(myFunction(16, 2));
