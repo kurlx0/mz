@@ -42,6 +42,7 @@
     --blue-light: #0023e9;
     --yellow-: #f1e20e;
     --cream-: #f1f1ea;
+    --white-: #fcfcfc;
     --maroon-: #ca220b;
 }
 
@@ -298,7 +299,7 @@ footer {
 .footer-text {
     padding: 10px 0;
     background: var(--black-);
-    color: var(--cream-);
+    color: var(--white-);
 }
 
 .footer-text > p {
@@ -308,12 +309,12 @@ footer {
 
 body.dark .footer-text {
     padding: 10px 0;
-    background: var(--cream-);
+    background: var(--white-);
     /* box-shadow: 0px 1px 2px 4.5px #5a5a5adc; */
 }
 
 body.dark .footer-text > p {
-    background: var(--cream-);
+    background: var(--white-);
     color: var(--black-);
 }
 
@@ -351,11 +352,11 @@ body.dark .footer-text > p {
 }
 
 body.dark #home-tab .text-left h1 {
-    color: var(--cream-);
+    color: var(--white-);
 }
 
 body.dark #home-tab .text-left p {
-    color: var(--cream-);
+    color: var(--white-);
 }
 
 #home-tab .img-right {
@@ -373,7 +374,7 @@ body.dark #home-tab .text-left p {
 }
 
 body.dark #home-tab .img-container {
-    border-color: var(--cream-);
+    border-color: var(--white-);
 }
 
 #home-tab .img-container img {
@@ -408,7 +409,7 @@ body.dark #home-tab .img-container img {
         position: fixed;
         top: 0;
         right: -100%;
-        background: #f1f1eac9;
+        background: #f1f1f1c9;
         backdrop-filter: blur(3px);
         /* background: var(--black-); */
         height: 100vh;
